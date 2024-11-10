@@ -1,0 +1,44 @@
+Adminstrator >  Brand > Edit > Show IsActive,IsVerified,Remarks - done
+				Department > Show IsActive,IsVerified,Remarks  - done
+				Company > Show IsActive,IsVerified,Remarks -  done
+				Lookups > Show IsActive,IsVerified,Remarks  - done
+				Lookups > Same as Grams   - done
+				Remove SDN files -- Done
+				In Grid If IsVerified is there and is eqaul to 0 then make text colour as red -- DOne
+				
+				Remove IsActive, IsVerified & Remarks Froom the grid (Everywhere)
+				Make IsActive,IsVerified to checkbix or switch insted of editbox - Done
+				if auth token expair redirect to login page - Done
+				Product > Remove Product Type From List - Done "api/product"
+				Product > Show Product Type Grid In Detail Section
+				Product > CRUD OF Product
+				Product > CRUD OF Product Type "api/producttype"
+				
+				1. Brand > In Detail Section Add a Tabs as Series/Model
+					Series List" api/brandseries"
+					Series Detail/CRUD (Brand > UID = Series > PID)
+					
+					Under Series Detail Makes a tab as Model
+					1.1. Model List "api/brandseriesmodels"
+					Model Detail / CRUD (Series > UID = Model > PID)
+						1.1.1 Model Detail > In Detail Section Addd another Tab as Asessories 
+							Acessories List (Model > UID = Acessories > PID)
+							Acessories CRUD
+						1.1.2 Model Detail > In Detail Section Addd another Tab as Spare Part
+							Spare Part List (Model > UID = SparePart > PID)
+							Spare Part CRUD
+				2. Brand > In Detail Section Add another tab as Product
+					Product List (Brand > UID = BrandProduct > PID) "api/brandproduct"
+					Product Detail / CRUD
+					
+					Under Product Detail make a tab as Product type
+					Product Type List (BrandProduct > UID = BrandProductType > PID) "api/brandproducttype"
+					Product Type Details/ CRUD
+					
+					
+				Can We Pass Button List To Datatable ? Yes, if not pass pass nil and show only excel button
+				Can we Assign a function to a button on datatable ? Yes
+				on delete button if row selected then prompt for selection and after that delete
+				if input variable is small then insted of detail section can we add a model and on new click open that model to capture data
+				if we capture data from model the we can do the same thing for edit
+				Make class which make all text in uppercase
